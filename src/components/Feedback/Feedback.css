@@ -1,0 +1,62 @@
+.Section_class {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    text-align: center;
+}
+
+.Button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 120px;
+    }
+
+@media (max-width: 768px) {
+    .Button {
+        font-size: 14px;
+        min-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Button {
+        font-size: 12px;
+        min-width: 60px;
+    }
+}
+
+.Statistic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: green;
+    margin-left: 5px;
+}
+    
+.Statistic__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(2, 65, 2);
+    margin-left: 5px;
+}
